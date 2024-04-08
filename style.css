@@ -4,28 +4,21 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    height: 100%;
 
+
+body {
+    background-image: url("images/Home.svg");
+    /* background-color: #282c33; */
+    height: 100%;
     width: 100%;
 }
 
-body {
-    background-color: #282C33;
+#nav {
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+    
 }
 
-.line {
-    position: absolute;
-    top: 20%;
-    left: 30px;
-    /* Space on the left side */
-    transform: translateY(-50%);
-
-}
-
-.line img {
-    display: block;
-    /* Ensures images are treated as block elements */
-    margin-bottom: 10px;
-}
+;
